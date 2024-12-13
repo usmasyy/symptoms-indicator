@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="4I9wStqqxGZZcKur9oLv" name="Page-1">
+        <mxGraphModel dx="1162" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="1" style="edgeStyle=none;html=1;endSize=11;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="server=flask" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="160" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="2" style="edgeStyle=none;html=1;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="11" style="edgeStyle=none;html=1;entryX=0.408;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="app.js/index.html" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="160" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="3" style="edgeStyle=none;html=1;" parent="1" source="8" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="loads symptoms&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="165" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="6" style="edgeStyle=none;html=1;" parent="1" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontSize=18;" parent="1" source="10" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="app.js--&amp;gt;memory stored" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="7" style="edgeStyle=none;html=1;" parent="1" source="12" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="convert to json&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="310" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;entryX=0.429;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="api/diagnosis by post = ap.py" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="17.5" y="300" width="135" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="16" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="85" y="315" as="sourcePoint"/>
+                        <mxPoint x="84" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="19" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="99" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="symptoms sent to analyzer.py" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="22.5" y="160" width="122.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="result generated&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;shown on screen&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#0000FF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="10" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="5" style="edgeStyle=none;html=1;entryX=0.391;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="27" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="user select symptoms&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="165" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;backend&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="440" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;frontend&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="27" edge="1" source="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="720" y="140" as="sourcePoint"/>
+                        <mxPoint x="727.5" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="50" width="30" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
